@@ -1,0 +1,11 @@
+name: pytorch
+channel:
+  - nvidia
+  - conda-forge
+dependencies: 
+  - python==3.12
+  - pytorch-gpu>=2.6,<2.7
+  - torchvision
+  - torchaudio
+  - transformers
+    

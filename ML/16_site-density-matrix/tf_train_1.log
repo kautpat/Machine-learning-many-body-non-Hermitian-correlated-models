@@ -1,0 +1,25 @@
+loaded data
+0.15043996876419904
+12463 2569 1657 0
+Created train-test data
+2.4471411430206469e-29 0.10332511266568514
+(9229, 16)
+(9229, 16)
+(2308,)
+2025-10-03 17:03:10.344567: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-03 17:03:10.832329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 14780 MB memory:  -> device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:8a:00.0, compute capability: 7.0
+Just before train
+Just after train
+(2308, 1)
+0.039081298
+0.9459110743562865
+2025-10-03 17:04:20.439050: W tensorflow/python/util/util.cc:368] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+MAE       : 0.039081
+Median AE : 0.025356
+RMSE      : 0.058318
+MAPE      : 25537064065644.477 %
+SMAPE     : 47.900 %
+R²        : 0.894167
+Pearson r : 0.945911
+Spearman  : 0.937425

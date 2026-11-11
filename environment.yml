@@ -1,0 +1,13 @@
+name: conda-example
+channels:
+ - conda-forge
+dependencies:
+ - numpy
+ - pandas
+ - scipy
+ - numba
+ - gcc
+ - gxx
+ - matplotlib
+ - pillow
+ - plotly

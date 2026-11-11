@@ -1,0 +1,17 @@
+name: tensor-env
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  - scipy
+  - cudatoolkit
+  - tensorflow=*=*cuda*
+  - autokeras
