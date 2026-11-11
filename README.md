@@ -4,7 +4,6 @@ This project investigates the 16-site 1D non-Hermitian AAH model (non-Hermitian 
 
 The masters thesis can be found [here](https://aaltodoc.aalto.fi/items/5e0f00c9-c519-4d8e-a5b0-cf6d1c0ab058).
 
-***
  
 ## **Repository Structure**
 
@@ -18,7 +17,7 @@ thesis-project/
 └── images/                         # Figures used in thesis
 ```
 
-***
+
 ## **Simulation code**
 Code of the non-Hermitian AAH model in intaeracting and non-interacting cases. The primary paramter that is varied across the thesis work is `v_I`, the imaginary component of the potential modulation, as there exists a phase transition through the point `v_I=2`.
 
@@ -29,7 +28,6 @@ A skeleton code for the single particle non-Hermitian AAH model, which are  used
 A skeleton code for the many body non-Hermitian AAH model, with functions for calculating correlation entropy using [joselado/dmrgpy](https://github.com/joselado/dmrgpy) library. Due to technical limitations the number of sites simulated in the models are 12 an 16. The code is built with HPC parallelization (triton) in mind and can be modified as required. Since we are interested in smooth evolution of `v_I` it remains as a for loop to pass arguments back into the dmrgpy methods.
 
 
-***
 
 ## **ML code**
 
@@ -43,7 +41,6 @@ The neural network used in for the thesis, can be used directly. Uses several pr
 Folder with test data of 16 site AAH model using the neural network for making visual comparisons.
 
 
-***
 
 ## **Modifications to dmrgpy**
 
